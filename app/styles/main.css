@@ -1,0 +1,20 @@
+body {
+  padding: 20px;
+}
+
+.lunch-planner {
+  margin-top: 10px;
+}
+
+
+.weekly-menu {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.weekly-menu .item {
+  margin: 10px;
+  
+}
