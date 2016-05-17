@@ -6,6 +6,12 @@ body {
   margin-top: 10px;
 }
 
+.hide-recipes {
+  opacity: .5;
+}
+.visible {
+  opacity: 1;
+}
 
 .weekly-menu {
   display: flex;
@@ -16,5 +22,5 @@ body {
 
 .weekly-menu .item {
   margin: 10px;
-  
+
 }

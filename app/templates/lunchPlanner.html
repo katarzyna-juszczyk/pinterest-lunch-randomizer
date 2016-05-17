@@ -2,7 +2,7 @@
   <button ng-click="randomizeList()" class="Button Module btn hasText rounded" data-element-type="400" type="button">
     <span class="buttonText">Generate weekly menu</span>
   </button>
-  <button ng-click="resetList()" class="Button Module btn hasText rounded" data-element-type="400" type="button">
+  <button ng-class="{'visible': isRandomized}" ng-click="resetList()" class="Button Module btn hasText rounded hide-recipes" data-element-type="400" type="button">
     <span class="buttonText">Hide Menu</span>
   </button>
 </div>
